@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+        google()
+        mavenCentral()
+    }
+//    repositories {
+//
+//        google()
+//        mavenCentral()
+//        gradlePluginPortal()
+//    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven {
+            url 'https://maven.fabric.io/public'
+        }
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AriaCashless"
+include ':app'
+include ':data'
+include ':devices'
+include ':common'

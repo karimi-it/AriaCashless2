@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e24d1510-4647-4e0b-8e9f-8dfbeb080b2d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/AriaCashless.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DocumentAndFiles/8123os1_6_2_22.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/SharedViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/TestSignkey.jks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fam-public-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/mcac/ariacashless/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fam-public-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/TahomaRegularfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/assets/fonts/b_yekan.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/MyApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/balance/GetBalanceFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/balance/GetBalanceViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/barcode/BarcodeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/barcode/BarcodeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/barcode/EPayFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/base/BasePaymentViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/base/BaseViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/cardvalidate/CardValidateFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/cardvalidate/CardValidateViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/ctoc/CtoCTransferL1Fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/ctoc/CtoCTransferL2Fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/ctoc/CtoCTransferViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/dialog/ProgressDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/failure/FailureFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/failure/FailureViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/main/MainFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/main/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/splash/SplashFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/success/SuccessFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/mcac/ariacashless/ui/success/SuccessViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-anydpi/ic_action_lock.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_action_lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bank_account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_gradiant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bill_paid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/failure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/failure_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/finger_print.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_qr_code_scanner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sync_disabled.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/m_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mabna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mcac_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/mcac_logo_3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/melal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/money_transfer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/person_box.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/recipt_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/right_hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sign_box.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/swipe_card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/withdraw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_progress.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_barcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_card_validate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ctoc_l1_transfer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_ctoc_l2_transfer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_epay.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_failure.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_get_balance.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_success.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-v29/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/mcac/ariacashless/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/androidTest/java/com/mcac/common/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/enums/ActionType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/Action.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/BalanceRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/BalanceResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/CardToCardRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/CardToCardResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/CardValidateRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/models/CardValidateResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/AnimationUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/BASE64Decoder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/BASE64Encoder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/CreditCardTextWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/EncryptionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/Event.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/NumberTextWatcherForThousand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/PermissionUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/PrintFormat.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/StringUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/TypefaceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/mcac/common/utils/UTF8Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/mcac/common/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/androidTest/java/com/mcac/data/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/di/RemoteModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/ApiService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/BalanceRequestDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/BalanceResponseDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/CardToCardRequestDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/CardToCardResponseDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/CardValidateRequestDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/dto/CardValidateResponseDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/source/RemoteDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/remote/source/RemoteDataSourceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/repository/Repository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/com/mcac/data/repository/RepositoryImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/test/java/com/mcac/data/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/arm64-v8a/libRedFiner.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/arm64-v8a/libTcFiner.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/arm64-v8a/libnative_serial_port.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/armeabi-v7a/libRedFiner.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/armeabi-v7a/libTcFiner.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/armeabi-v7a/libnative_serial_port.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/lib-eyecoolfinger-v2.2.2.V.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/szztdevicesdk.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/libs/szztdevicesdk_v3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/androidTest/java/com/mcac/devices/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/DeviceFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/DeviceManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/DeviceManagerImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/CommandType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/ContactCardType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/ContactlessCardType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/CryptographyMode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/DeviceType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/KeyType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/enums/Status.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IBarcodeScanner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/ICamera.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IContactLessReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IDevice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IFingerPrint.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IHardwareSupported.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IMagneticCardReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IPinpad.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/IPrinter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/hardwares/ISmartCardReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/BarcodeScannerImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/CameraImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/ContactLessReaderImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/FingerPrintImp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/MagneticCardReaderImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/PinpadImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/PrinterImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/SZZTKS8123.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/SmartCardReaderImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/ArrayUtil.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/DeviceUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/ErrorList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/ImageUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/KeyListener.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/KeyObservable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/KeyObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/ks8123/util/StatusList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/BarcodeCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/BarcodeResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/CameraCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/CameraResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/CardInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/CardReaderCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/CardReaderResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/Container.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/DeviceStatus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/ErrorResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/FingerPrintCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/FingerPrintResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/Key.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/MagnetCardCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/MagnetCardResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/PinpadCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/PinpadResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/PrinterCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/RfCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/RfidResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/SZZTPrinterSetting.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/SignPadResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/main/java/com/mcac/devices/models/SingPadCommand.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devices/src/test/java/com/mcac/devices/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "karimi-it"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/karimi-it/AriaCashless2.git",
+    "accountId": "b0dcba67-6d9f-47ec-ba72-7c7ee14fb6a4"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2kQpeWOvMiFe6KdxtFRcZ2eLApW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/android/AriaCashless",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e24d1510-4647-4e0b-8e9f-8dfbeb080b2d" name="Changes" comment="" />
+      <created>1723225750038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723225750038</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_splash_fragment">
+    <fragment
+        android:id="@+id/nav_splash_fragment"
+        android:name="com.mcac.ariacashless.ui.splash.SplashFragment"
+        tools:layout="@layout/fragment_splash"
+        android:label="@string/splash_fragment_label" />
+
+    <action
+        android:id="@+id/action_splash_fragment_to_main_fragment"
+        app:destination="@id/nav_main_fragment"
+        app:launchSingleTop="true"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <fragment
+        android:id="@+id/nav_main_fragment"
+        android:name="com.mcac.ariacashless.ui.main.MainFragment"
+        android:label="@string/main_fragment_label"
+        tools:layout="@layout/fragment_main">
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_balance_fragment"
+        android:name="com.mcac.ariacashless.ui.balance.GetBalanceFragment"
+        android:label="@string/get_balance_fragment_label"
+        tools:layout="@layout/fragment_get_balance">
+    </fragment>
+    <fragment
+        android:id="@+id/nav_ctoc_transfer_l1_fragment"
+        android:name="com.mcac.ariacashless.ui.ctoc.CtoCTransferL1Fragment"
+        android:label="ctoc_transfer_l1_fragment"
+        tools:layout="@layout/fragment_ctoc_l1_transfer"/>
+    <fragment
+        android:id="@+id/nav_ctoc_transfer_l2_fragment"
+        android:name="com.mcac.ariacashless.ui.ctoc.CtoCTransferL2Fragment"
+        android:label="ctoc_transfer_l2_fragment"
+        tools:layout="@layout/fragment_ctoc_l2_transfer"/>
+    <action
+        android:id="@+id/action_main_fragment_to_get_balance_fragment"
+        app:destination="@id/nav_balance_fragment"
+        app:popUpTo="@+id/nav_main_fragment"/>
+    <action
+        android:id="@+id/action_main_fragment_to_card_validate_fragment"
+        app:destination="@id/nav_card_validate_fragment"
+        app:popUpTo="@+id/nav_main_fragment"/>
+    <action
+        android:id="@+id/action_main_fragment_to_card_ctoc_fragment"
+        app:destination="@id/nav_ctoc_transfer_l1_fragment"
+        app:popUpTo="@+id/nav_main_fragment"/>
+    <action
+        android:id="@+id/action_to_success_fragment"
+        app:destination="@id/nav_success_fragment"
+        app:popUpTo="@id/nav_main_fragment" />
+    <action
+        android:id="@+id/action_to_failure_fragment"
+        app:destination="@id/nav_failure_fragment"
+        app:popUpTo="@id/nav_main_fragment" />
+    <fragment
+        android:id="@+id/nav_barcode_fragment"
+        android:name="com.mcac.ariacashless.ui.barcode.BarcodeFragment"
+        tools:layout="@layout/fragment_barcode"
+        android:label="BarcodeFragment" />
+    <fragment
+        android:id="@+id/nav_epay_fragment"
+        android:name="com.mcac.ariacashless.ui.barcode.EPayFragment"
+        tools:layout="@layout/fragment_epay"
+        android:label="EPayFragment" />
+    <fragment
+        android:id="@+id/nav_failure_fragment"
+        android:name="com.mcac.ariacashless.ui.failure.FailureFragment"
+        tools:layout="@layout/fragment_failure"
+        android:label="FailureFragment" />
+    <fragment
+        android:id="@+id/nav_success_fragment"
+        android:name="com.mcac.ariacashless.ui.success.SuccessFragment"
+        tools:layout="@layout/fragment_success"
+        android:label="SuccessFragment" />
+    <action
+        android:id="@+id/action_balance_fragment_to_success_fragment"
+        app:destination="@id/nav_success_fragment"
+        app:popUpTo="@id/nav_main_fragment"
+        app:popUpToInclusive="true" />
+    <action
+        android:id="@+id/action_balance_fragment_to_failure_fragment"
+        app:destination="@id/nav_failure_fragment"
+        app:popUpTo="@id/nav_main_fragment"
+        app:popUpToInclusive="true" />
+    <fragment
+        android:id="@+id/nav_card_validate_fragment"
+        tools:layout="@layout/fragment_card_validate"
+        android:name="com.mcac.ariacashless.ui.cardvalidate.CardValidateFragment"
+        android:label="CardValidateFragment" />
+
+</navigation>
